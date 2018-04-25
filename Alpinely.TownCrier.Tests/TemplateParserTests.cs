@@ -68,7 +68,6 @@ namespace Alpinely.TownCrier.Tests
         }
 
         [Test]
-        [ExpectedException(typeof (ArgumentException))]
         public void ExceptionThrownIfValueNotSuppliedForToken()
         {
             string inputText = "My name is {%=name%}";
